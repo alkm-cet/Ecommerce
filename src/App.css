@@ -33,6 +33,7 @@
 
 @media(max-width:700px) {
   .navbar {
+    width: 100%;
     height: 200px;
     flex-direction: column;
     gap: 20px;
@@ -224,6 +225,12 @@
   justify-content: center;
   align-items: center;
   gap: 50px;
+}
+
+@media(max-width:700px){
+  .topinfocard{
+    width: 100%;
+  }
 }
 
 .midcardinfotexts {
@@ -1048,6 +1055,12 @@
   border-radius: 5px;
   padding-left: 20px;
   font-size: 20px;
+}
+
+@media(max-width:700px){
+  .itempanelinputs{
+    width: 90%;
+  }
 }
 
 .addnewitemBTN {
