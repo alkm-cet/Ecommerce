@@ -17,15 +17,15 @@ function App() {
       <div className="App">
 
         <nav className='navbar'>
-          <Link to='/'><div className="logo"></div></Link>
+          <Link to='/Ecommerce/Home'><div className="logo"></div></Link>
           <ul>
-            <Link to='/'><li className='navtext'>Home</li></Link>
-            <Link to='/AllProducts'><li className='navtext'>Shop</li></Link>
-            <Link to='/AdminPanel'><li className='navtext'>Admin Panel</li></Link>
+            <Link to='/Ecommerce/Home'><li className='navtext'>Home</li></Link>
+            <Link to='/Ecommerce/AllProducts'><li className='navtext'>Shop</li></Link>
+            <Link to='/Ecommerce/AdminPanel'><li className='navtext'>Admin Panel</li></Link>
           </ul>
 
           <ul>
-            <Link to='/Cart'>
+            <Link to='/Ecommerce/Cart'>
               <li className='navtext'><span className="material-symbols-outlined shopicon">
                 local_mall
               </span></li>
@@ -38,22 +38,22 @@ function App() {
         </nav>
 
         <Routes>
-          <Route path='/' element={<HomePage />} />
-          <Route path='/AllProducts' element={<AllProducts />} />
-          <Route path='/AdminPanel' element={<AdminPanel />} />
-          <Route path='/Cart' element={<Chart />} />
+          <Route path='/Ecommerce/Home' element={<HomePage />} />
+          <Route path='/Ecommerce/AllProducts' element={<AllProducts />} />
+          <Route path='/Ecommerce/AdminPanel' element={<AdminPanel />} />
+          <Route path='/Ecommerce/Cart' element={<Chart />} />
         </Routes>
         <div className="bottomfooterNav">
 
           <div className="bottomfooter1div">
-            <Link to='/'><div className="logo" style={{ backgroundColor: 'transparent' }}></div></Link>
+            <Link to='/Ecommerce/Home'><div className="logo" style={{ backgroundColor: 'transparent' }}></div></Link>
             <span>Lorem ipsum dolor sit amet.</span>
           </div>
 
           <div className="bottomfooter2div">
-            <Link className='link' to='/' ><p>Home</p></Link>
-            <Link className='link' to='/AllProducts' ><p>Shop</p></Link>
-            <Link className='link' to='/AdminPanel' ><p>Admin Panel</p></Link>
+            <Link className='link' to='/Ecommerce/Home' ><p>Home</p></Link>
+            <Link className='link' to='/Ecommerce/AllProducts' ><p>Shop</p></Link>
+            <Link className='link' to='/Ecommerce/AdminPanel' ><p>Admin Panel</p></Link>
           </div>
 
           <div className="bottomfooter3div">
