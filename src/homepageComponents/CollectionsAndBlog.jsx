@@ -11,7 +11,7 @@ function CollectionsAndBlog() {
                     <div className="collectionleft">
                         <h4>30% Off</h4>
                         <h2>Chair Collection</h2>
-                        <Link to='/AllProducts'><button className='collectionshopBTN'>Shop Now</button></Link>
+                        <Link to='/Ecommerce/AllProducts'><button className='collectionshopBTN'>Shop Now</button></Link>
                     </div>
                     <div className="collectionright"
                         style={{ backgroundImage: 'url("https://a.1stdibscdn.com/f588-lounge-chair-by-geoffrey-harcourt-for-artifort-for-sale/f_48001/f_315378521669886270480/f_31537852_1669886271207_bg_processed.jpg")' }}></div>
@@ -21,7 +21,7 @@ function CollectionsAndBlog() {
                     <div className="collectionleft">
                         <h4>20% Off</h4>
                         <h2>Sofa Collection</h2>
-                        <Link to='/AllProducts'><button className='collectionshopBTN'>Shop Now</button></Link>
+                        <Link to='/Ecommerce/AllProducts'><button className='collectionshopBTN'>Shop Now</button></Link>
                     </div>
                     <div className="collectionright"
                         style={{ backgroundImage: 'url("https://cdn.shopify.com/s/files/1/0096/4594/9013/products/Designer-Sofa-Set-in-Fabric-L-Shape_1.png?v=1616070419")' }}></div>

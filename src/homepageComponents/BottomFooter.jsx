@@ -10,7 +10,7 @@ function BottomFooter() {
                     <h4>Follow us on Instagram @Furniture</h4>
                     <div className="mailleftcontainer">
                         <div className='mailleftIMG'
-                            style={{ backgroundImage: 'url("https://ae01.alicdn.com/kf/Hec1ce90f70bd47f1b9459609fd34ccbfs/Luz-italiana-luxo-sof-de-couro-villa-grande-fam-lia-sala-estar-designer-p-s-moderna.jpg_Q90.jpg_.webp")' }}>
+                            style={{ backgroundImage: 'url("https://fairtradefurniture.co.uk/wordpress2/wp-content/uploads/2021/11/most-popular-conservatory-furniture-500x500.jpeg")' }}>
                         </div>
 
                         <div className='mailleftIMG'

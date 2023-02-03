@@ -62,7 +62,7 @@ function AdminPanel() {
                 <h1 style={{ background: 'transparent', color: 'white' }}>ADD NEW ITEM</h1>
                 <h3 className='apminpaneltitles'>Item ID <br /> ( Item id must be 1 higher than: {products.length} )</h3>
                 <input onChange={setIdfunc} className='itempanelinputs' type="number" placeholder="id" />
-                <h3 className='apminpaneltitles'>Item IMG</h3>
+                <h3 className='apminpaneltitles'>Item IMG URL</h3>
                 <input onChange={setImgfunc} className='itempanelinputs' type="text" placeholder='500x500 recomended' />
                 <h3 className='apminpaneltitles'>Item EXPLANATION</h3>
                 <input onChange={setexplanationfunc} className='itempanelinputs' type="text" placeholder='Explanation' />

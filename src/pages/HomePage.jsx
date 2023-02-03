@@ -12,7 +12,7 @@ function HomePage() {
                 <div className="homepagetopleft">
                     <h1 >Awesome Design Best Furniture<br /> For Your Home</h1>
                     <small>Browse, Choose & Order, Very Simple</small>
-                    <Link to='/AllProducts'><button className='shopnowbtn'>Shop Now</button></Link>
+                    <Link to='/Ecommerce/AllProducts'><button className='shopnowbtn'>Shop Now</button></Link>
                     <div className="spansdiv">
                         <span ><b style={{ color: 'black' }}>1000+</b> <br />Furnitures & <br /> Equipments</span>
                         <span><b style={{ color: 'black' }}>130+</b>  <br />Fresh Interior & <br /> Design</span>
@@ -53,7 +53,7 @@ function HomePage() {
             <div className="homepagemid">
                 <h1 className="homepagemidtitle">Top Picked For Your</h1>
                 <ProductBuyCard />
-                <Link to='/AllProducts'><button className='exploremoreBTN'>Explore All Items</button></Link>
+                <Link to='/Ecommerce/AllProducts'><button className='exploremoreBTN'>Explore All Items</button></Link>
                 <CollectionsAndBlog />
             </div>
             <BottomFooter />

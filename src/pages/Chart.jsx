@@ -35,7 +35,7 @@ function Chart() {
         <div className='chartPageMainContainer'>
             {
                 buyed.length == 0
-                    ? <div style={{ background: 'transparent', width: "70%", fontSize: 40 }}>No item in your basket <br /> <Link to='/AllProducts'><button className='payBTN' style={{ width: 150, height: 60, background: '#fff200' }}>Shop Now</button></Link></div>
+                    ? <div style={{ background: 'transparent', width: "70%", fontSize: 40 }}>No item in your basket <br /> <Link to='/Ecommerce/AllProducts'><button className='payBTN' style={{ width: 150, height: 60, background: '#fff200' }}>Shop Now</button></Link></div>
                     : <div className='cartpagebuyeditemcontainer'>
                         {/* <div className="chartpagetitles">
                             <p>Discount Rate</p>
